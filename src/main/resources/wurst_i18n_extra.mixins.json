@@ -8,6 +8,7 @@
     "ClickGuiMixin",
     "FeatureButtonMixin",
     "HackListHUDMixin",
+    "HackListOtfMixin",
     "HackMixin"
   ],
   "injectors": {
