@@ -10,23 +10,17 @@
   "icon": "assets/wurst_i18n_extra/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "org.zb.wurst_i18n_extra.client.Wurst_i18n_extraClient"
-    ],
     "main": [
       "org.zb.wurst_i18n_extra.Wurst_i18n_extra"
     ]
   },
   "mixins": [
-    "wurst_i18n_extra.mixins.json",
-    {
-      "config": "wurst_i18n_extra.client.mixins.json",
-      "environment": "client"
-    }
+    "wurst_i18n_extra.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "wurst": "*"
   }
 }

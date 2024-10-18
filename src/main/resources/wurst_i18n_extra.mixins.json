@@ -4,6 +4,11 @@
   "package": "org.zb.wurst_i18n_extra.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CategoryMixin",
+    "ClickGuiMixin",
+    "FeatureButtonMixin",
+    "HackListHUDMixin",
+    "HackMixin"
   ],
   "injectors": {
     "defaultRequire": 1
