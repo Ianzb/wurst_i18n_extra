@@ -9,7 +9,9 @@
     "FeatureButtonMixin",
     "HackListHUDMixin",
     "HackListOtfMixin",
-    "HackMixin"
+    "HackMixin",
+    "OtherFeatureMixin",
+    "WurstUpdaterMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -37,7 +37,7 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modApi files('run/resources/mods/Wurst-Client-v7.46.1-MC1.21.1.jar')
+    modApi files('lib/Wurst-Client-v7.46.6-MC1.21.1.jar')
 }
 
 processResources {

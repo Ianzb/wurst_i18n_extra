@@ -13,7 +13,6 @@ public class translateClass {
     }
 
     public static String item(String name) {
-
         return translate("item.wurst.hack." + name.toLowerCase());
     }
 

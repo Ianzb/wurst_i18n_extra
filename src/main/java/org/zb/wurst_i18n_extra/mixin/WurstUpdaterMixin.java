@@ -10,6 +10,6 @@ public class WurstUpdaterMixin {
      * @author
      * @reason
      */
-    @Overwrite
-    public void onUpdate() {}
+//    @Overwrite
+//    public void onUpdate() {}
 }
